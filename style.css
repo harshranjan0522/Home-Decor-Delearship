@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: outfit, poppins;
+}
+body{
+    background-color: #f9a01b;
+}
+.nav-bar{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 20.2px rgb(0, 0, 0, 2.3);
+
+}
+.nav-bar img{
+    height: 60px;
+    margin-right: auto;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-family: outfit;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.hero{
+    background-color: #f9a01b;
+    height: 100vh;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.intro-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 40px;
+}
+.intro-text p{
+    margin-top: 40px;
+    font-size: 30px;
+    width: 350px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.hero-image img{
+    display: block;
+    filter: drop-shadow(13px 10px 9px black);
+}
+.our-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    padding-bottom: 50px;
+    height: 100vh;
+}
+.prod{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+h2{
+    
+    font-size: 64px;
+    margin-bottom: 60px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 40px;
+    height: 384px;
+    background-color: #f9a01b;
+    width: 334px;
+    border-radius: 20px;
+}
+button a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    letter-spacing: 1px;
+}
+button:hover{
+    background: #000000;
+    border-radius: 38px;
+    color: white;
+}
+button:hover a{
+    color: white;
+}
+button{
+    height: 51px;
+    width: 238px;
+    background-color: white;
+    border-radius: 40px;
+    border: transparent;
+    transition: 0.2s;
+}
+.card img{
+    margin-top: 10px;
+    height: 304px;
+    width: 308px;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    background-color: #f9a01b;
+}
+.about-text{
+    height: 526px;
+    width: 639px;
+    margin-right: 50px;
+}
+.about-text p{
+    color: white;
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    color: black;
+    font-size: 96px;
+    margin-bottom: 60px;
+}
+.about-img img{
+    height: 532px;
+    width: 471px;
+}
+footer{
+    background-color: rgba(88, 56, 9, 1);
+    height: 373px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+.hero, .our-products, .aboutus{
+    position: sticky;
+    top: 0;
+}
